@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">BaseDatos</string>
+    <string name="txtAlta">Alta Estudiante</string>
+    <string name="txtMostrar">Estudiantes Registrados</string>
+    <string name="txtEditar">Editar Estudiante</string>
+    <string name="txtEliminar">Eliminar Estudiante</string>
+    <string name="txtDetalleEstudiante">Detalle Estudiante</string>
+    <string name="txtEstudiante">Estudiante</string>
+    <string name="hintNumero">N</string>
+    <string name="hintNombre">Name</string>
+    <string name="hintApellido">Lastname</string>
+    <string name="hintGenero">Gender</string>
+    <string name="hintCumpleanos">Birthday</string>
+    <string name="txtEdit">Editar Estudiante</string>
+    <string name="txtMisEstudiantes">Estudiantes Registrados</string>
+    <string name="txtMale">Male</string>
+    <string name="txtFemale">Female</string>
+    <string name="hintCumpleanosAlta">Birthday: YYYY/MM/DD</string>
+    <string name="btnEnviar">Enviar</string>
+    <string name="btnEditar">Editar</string>
+</resources>
