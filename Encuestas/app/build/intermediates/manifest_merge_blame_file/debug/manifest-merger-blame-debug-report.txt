@@ -1,0 +1,72 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.encuestas"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->D:\Octavo Semestre\Dispositivos Moviles\Encuestas\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\Octavo Semestre\Dispositivos Moviles\Encuestas\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->D:\Octavo Semestre\Dispositivos Moviles\Encuestas\app\src\main\AndroidManifest.xml:5:5-28:19
+12        android:allowBackup="true"
+12-->D:\Octavo Semestre\Dispositivos Moviles\Encuestas\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.1.0] C:\Users\moises\.gradle\caches\transforms-2\files-2.1\c578ba1414016d0923cecc1687764854\core-1.1.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:extractNativeLibs="false"
+16        android:icon="@mipmap/ic_launcher"
+16-->D:\Octavo Semestre\Dispositivos Moviles\Encuestas\app\src\main\AndroidManifest.xml:7:9-43
+17        android:label="@string/app_name"
+17-->D:\Octavo Semestre\Dispositivos Moviles\Encuestas\app\src\main\AndroidManifest.xml:8:9-41
+18        android:roundIcon="@mipmap/ic_launcher_round"
+18-->D:\Octavo Semestre\Dispositivos Moviles\Encuestas\app\src\main\AndroidManifest.xml:9:9-54
+19        android:supportsRtl="true"
+19-->D:\Octavo Semestre\Dispositivos Moviles\Encuestas\app\src\main\AndroidManifest.xml:10:9-35
+20        android:testOnly="true"
+21        android:theme="@style/AppTheme" >
+21-->D:\Octavo Semestre\Dispositivos Moviles\Encuestas\app\src\main\AndroidManifest.xml:11:9-40
+22        <activity android:name="com.example.encuestas.Util.AuthenticationActivity" >
+22-->D:\Octavo Semestre\Dispositivos Moviles\Encuestas\app\src\main\AndroidManifest.xml:12:9-18:20
+22-->D:\Octavo Semestre\Dispositivos Moviles\Encuestas\app\src\main\AndroidManifest.xml:12:19-62
+23            <intent-filter>
+23-->D:\Octavo Semestre\Dispositivos Moviles\Encuestas\app\src\main\AndroidManifest.xml:13:13-17:29
+24                <action android:name="android.intent.action.MAIN" />
+24-->D:\Octavo Semestre\Dispositivos Moviles\Encuestas\app\src\main\AndroidManifest.xml:14:17-69
+24-->D:\Octavo Semestre\Dispositivos Moviles\Encuestas\app\src\main\AndroidManifest.xml:14:25-66
+25
+26                <category android:name="android.intent.category.LAUNCHER" />
+26-->D:\Octavo Semestre\Dispositivos Moviles\Encuestas\app\src\main\AndroidManifest.xml:16:17-77
+26-->D:\Octavo Semestre\Dispositivos Moviles\Encuestas\app\src\main\AndroidManifest.xml:16:27-74
+27            </intent-filter>
+28        </activity>
+29        <activity android:name="com.example.encuestas.Util.DeleteActivity" />
+29-->D:\Octavo Semestre\Dispositivos Moviles\Encuestas\app\src\main\AndroidManifest.xml:19:9-56
+29-->D:\Octavo Semestre\Dispositivos Moviles\Encuestas\app\src\main\AndroidManifest.xml:19:19-54
+30        <activity android:name="com.example.encuestas.Util.DetailActivity" />
+30-->D:\Octavo Semestre\Dispositivos Moviles\Encuestas\app\src\main\AndroidManifest.xml:20:9-56
+30-->D:\Octavo Semestre\Dispositivos Moviles\Encuestas\app\src\main\AndroidManifest.xml:20:19-54
+31        <activity android:name="com.example.encuestas.Util.EditActivity" />
+31-->D:\Octavo Semestre\Dispositivos Moviles\Encuestas\app\src\main\AndroidManifest.xml:21:9-54
+31-->D:\Octavo Semestre\Dispositivos Moviles\Encuestas\app\src\main\AndroidManifest.xml:21:19-52
+32        <activity android:name="com.example.encuestas.Util.MadeActivity" />
+32-->D:\Octavo Semestre\Dispositivos Moviles\Encuestas\app\src\main\AndroidManifest.xml:22:9-54
+32-->D:\Octavo Semestre\Dispositivos Moviles\Encuestas\app\src\main\AndroidManifest.xml:22:19-52
+33        <activity android:name="com.example.encuestas.Util.MainActivity" />
+33-->D:\Octavo Semestre\Dispositivos Moviles\Encuestas\app\src\main\AndroidManifest.xml:23:9-54
+33-->D:\Octavo Semestre\Dispositivos Moviles\Encuestas\app\src\main\AndroidManifest.xml:23:19-52
+34        <activity android:name="com.example.encuestas.Util.MakeActivity" />
+34-->D:\Octavo Semestre\Dispositivos Moviles\Encuestas\app\src\main\AndroidManifest.xml:24:9-54
+34-->D:\Octavo Semestre\Dispositivos Moviles\Encuestas\app\src\main\AndroidManifest.xml:24:19-52
+35        <activity android:name="com.example.encuestas.Util.RegisterActivity" />
+35-->D:\Octavo Semestre\Dispositivos Moviles\Encuestas\app\src\main\AndroidManifest.xml:25:9-58
+35-->D:\Octavo Semestre\Dispositivos Moviles\Encuestas\app\src\main\AndroidManifest.xml:25:19-56
+36        <activity android:name="com.example.encuestas.Util.SelectEditActivity" />
+36-->D:\Octavo Semestre\Dispositivos Moviles\Encuestas\app\src\main\AndroidManifest.xml:26:9-60
+36-->D:\Octavo Semestre\Dispositivos Moviles\Encuestas\app\src\main\AndroidManifest.xml:26:19-58
+37    </application>
+38
+39</manifest>
